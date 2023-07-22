@@ -1,0 +1,24 @@
+.starproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+}
+.pro2{
+    display: flex;
+   flex-wrap: wrap;
+   width: 46%;
+}
+.starproduct img:hover{
+    box-shadow: 19px 19px 10px rgba(113, 112, 111, 0.292);
+}
+@media (max-width:799px){
+    .starproduct{
+        flex-direction: column;
+        margin: 0;
+    }
+    .pro2{
+        display: flex;
+        width: 100%;
+    }
+}

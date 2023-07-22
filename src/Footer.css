@@ -1,0 +1,67 @@
+.pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vmax;
+   
+}
+.pre >div{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(108, 108, 108, 0.511);
+    margin: 20px;
+   
+}
+.pre p{
+    font-size: 1rem;
+ 
+}
+.pre b{
+    color: black;
+}
+.pre>div:hover{
+    box-shadow: 10px 10px 15px rgba(132, 125, 132, 0.532);
+}
+.presecond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(235, 235, 235, 0.9);
+}
+.presecond>div{
+    margin: 20px;
+    width: 23%;
+    box-shadow: 10px 10px 15px rgba(167, 166, 166, 0.719);
+    padding: 20px;
+    height: 110px;
+    cursor: pointer;
+}
+.presecond>div:hover{
+     box-shadow: 12px 13px 15px rgba(143, 141, 141, 0.324);
+}
+.presecond :nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    }
+    .presecond h1{
+     font-size: 1.5rem;
+     margin-bottom: 0;
+     padding-bottom: 0;
+    }
+    .presecond p{
+        font-size: 1rem;
+
+       }
+       .presecond input{
+        width: 300px;
+        height: 35px;
+        outline: 1px solid black;
+        display: block;
+       }
+       
+   
+

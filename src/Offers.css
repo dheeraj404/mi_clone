@@ -1,0 +1,22 @@
+.offersSection{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1px;
+}
+.offersSection a{
+    margin: 10px;
+}
+.offersSection a:hover{
+    box-shadow: 6px 6px 15px rgba(163, 163, 163, 0.858);
+  
+}
+@media (max-width:799px){
+    .offersSection{
+        flex-direction: column;
+    }
+    img{
+        height: auto;
+        width: auto;
+    }
+}
